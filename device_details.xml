@@ -1,0 +1,33 @@
+<?xml version ="1.0" encoding ="UTF-8"?>
+<?xml-stylesheet type="text/css" href="device.css"?>
+<products>
+  <deviceDetails>Our Device Details</deviceDetails>
+  <product id="p1" class="special">
+    <name>Laptop</name>
+     <price>Price : $700.00</price>
+       <condition>Condition :	New</condition>
+       <review>Review: 4.8</review>
+  </product>
+   <product id="p2" class="special">
+    <name>Phone</name>
+     <price>Price : $600.00</price>
+     <condition>Condition : 	New</condition>
+     <review>Review: 4.6</review>
+    </product>
+    <product id="p3" class="special">
+      <name>Headphone</name>
+      <price>Price : $300.00</price>
+      <condition>Condition :	New</condition>
+      <review>Review: 4.5</review>
+    </product>
+    <product id="p4" class="special">
+      <name>Watch</name>
+      <price>Price : $400.00</price>
+      <condition>Condition :	New</condition>
+       <review>Review: 4.7</review>
+       <image>
+      <src>
+        </src>
+       </image>
+  </product>
+</products>

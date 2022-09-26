@@ -1,0 +1,56 @@
+products{
+    font-size: 80%;
+    margin: 0.5em;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+}
+product{
+    display: block;
+    border: 1px solid rgb(158, 141, 141);
+    margin: 0.5em;
+    padding: 0.5em;
+    width: 60%;
+    margin-left: 200px;
+}
+name, price, review{
+ display: block;
+}
+name{
+    color: rgb(48, 8, 82);
+    text-decoration: underline; 
+    font-size: 30px;
+}
+price{
+    color: rgb(5, 61, 5);
+    margin-left: 180px;
+    font-size: 25px;
+}
+review{
+    color: rgb(129, 143, 6);
+    margin-left: 180px;
+    font-size: 20px;
+}
+condition{
+    color: rgb(23, 24, 20);
+    margin-left: 180px;
+    font-size: 18px;
+}
+product.special{
+    background-color: mistyrose;
+    padding: 50px;
+}
+product[class=special]{
+    background-color: mistyrose;
+}
+deviceDetails{
+    color: black;
+    text-decoration: underline;
+    font-size: 30px;
+    margin-left: 430px;
+}
+@media screen and (max-width:660px) {
+    deviceDetails{
+        margin-left: 10px;
+        font-size: 24px;
+    }
+}

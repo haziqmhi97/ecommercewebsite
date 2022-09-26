@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    position:fixed;
+    width: 100%;
+    box-shadow: 2px 0px 3px grey;
+    right: 0px;
+    top: 0px;
+    background: rgb(74, 146, 134);
+}
+.navbar img{
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+}
+.pages{
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 30%;
+}
+.pages a{
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+.register{
+    position:fixed;
+    right: 20px;
+    top: 10px;
+    height: 35px;
+    background-color: #FFC700;
+    border: 1px solid #957400;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+}
+.register a{
+    color: #fff;
+    padding: 10px 10px;
+}
+.icons{
+    position: absolute;
+    background:#7a6310;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color:wheat;
+}
+i{
+    width: 20px;
+    height: 20px;
+    margin:  5px 0px 2px 5px;
+}
+ .p1{
+    text-align: center;
+    border: 2px solid #957400;
+    margin-top: 65px;
+    margin-left: 200px;
+    width: 70%;
+} 
+.p2{
+    text-align: center;
+    border: 2px solid #957400;
+    margin-top: 15px;
+    margin-left: 200px;
+    width: 70%;
+} 
+.p3{
+    text-align: center;
+    border: 2px solid #957400;
+    margin-top: 15px;
+    margin-left: 200px;
+    width: 70%;
+} 
+p span{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #3f0152;
+    text-decoration: underline;
+}
+@media screen and (max-width:660px) {
+  
+    .navbar{
+        background-color:rgba(61, 60, 60, 0.877);
+        height: 170px;
+    }
+    .pages a{
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+    }
+    .p1{
+        margin-left: 70px;
+        margin-top: 180px;
+    }
+    .p2,.p3{
+        margin-left: 70px; 
+    }
+    .icons{
+        position: relative;
+        margin-top: 15px;
+        font-size:12px;
+    }
+}

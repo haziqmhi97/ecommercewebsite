@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background: #d9ff02;
+  }
+  .navbar{
+    position:fixed;
+    width: 100%;
+    box-shadow: 2px 0px 3px grey;
+    right: 0px;
+    top: 0px;
+    background: rgb(74, 146, 134);
+  }
+  .navbar img{
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+  }
+  .pages{
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 30%;
+  }
+  .pages a{
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #fff;
+  }
+  .register{
+    position:fixed;
+    right: 20px;
+    top: 10px;
+    height: 35px;
+    background-color: #FFC700;
+    border: 1px solid #957400;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+  
+  }
+  .register a{
+    color: #fff;
+    padding: 10px 10px;
+  }
+  .wrapper{
+    max-width: 450px;
+    max-height: 70%;
+    width: 100%;
+    background: rgb(124, 61, 61);
+    padding: 24px;
+    margin-top: 60px;
+    margin-left: 420px;
+  }
+  .wrapper h2{
+    position: relative;
+    font-size: 23px;
+    font-weight: 600;
+    color: rgb(27, 7, 7);
+  }
+  .wrapper h2::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 28px;
+    border-radius: 12px;
+    background: #4070f4;
+  }
+  .wrapper form{
+    margin-top: 50px;
+  }
+  .wrapper form .input-box{
+    height: 40px;
+    margin: 7px 10px;
+  }
+  form .input-box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 7px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border-bottom-width: .5px;
+  }
+  form .policy{
+    display: flex;
+    align-items: center;
+  }
+  form h3{
+    color: #faf6f6;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .input-box.button input{
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    background: #000208;
+    cursor: pointer;
+  }
+  a{
+    text-decoration: none;
+  }
+  form .text h3{
+   color: rgb(252, 238, 238);
+   width: 100%;
+   text-align: center;
+  }
+  .log{
+    color: #ff0c79;
+    text-decoration: none;
+  }
+  form .text h3 a:hover{
+    text-decoration: underline;
+  }
+  .icons{
+    position: absolute;
+    background:#7a6310;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color:wheat;
+  }
+  i{
+    width: 20px;
+    height: 20px;
+    margin:  5px 0px 2px 0px;
+  }
+  @media screen and (max-width:660px) {
+    
+    .navbar{
+        background-color:rgba(61, 60, 60, 0.877);
+        height: 170px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .pages a{
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+    }
+    .icons{
+      position: absolute; 
+      background:#7a6310;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 50px;
+      text-align: center;
+      color:wheat;
+      font-size: 12px;
+    }
+    .wrapper{
+      max-width: 270px;
+      max-height: 50%;
+      width: 100%;
+      background: rgb(124, 61, 61);
+      padding: 10px;
+      margin-top: 190px;
+      margin-left: 55px;
+      border-radius: 6px;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    }
+    i{
+      width: 20px;
+      height: 20px;
+      margin:  0px 0px 0px 0px;
+    }
+    .register{
+      position:fixed;
+      right: 10px;
+      top: 5px;
+      height: 30px;
+      background-color: #FFC700;
+      border: 1px solid #957400;
+      border-radius: 18px;
+      font-weight: bold;
+      font-size: 14px;
+      color: #fff;
+    }
+    .icons{
+      position:relative;
+      background:#7a6310;
+      bottom: 0;
+      width: 100%;
+      height: 50px;
+      text-align: center;
+      color:wheat;
+      margin-top: 0px;
+      font-size: 12px;
+  }
+  }
+  
